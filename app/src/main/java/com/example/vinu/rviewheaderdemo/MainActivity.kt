@@ -12,17 +12,17 @@ class MainActivity : AppCompatActivity() {
         get() {
             val data = ArrayList<ItemObject>()
             data.add(ItemObject("First Header",true))
-            data.add(ItemObject("This is the item content in the first position"))
-            data.add(ItemObject("This is the item content in the second position"))
-            data.add(ItemObject("This is the item content in the third position"))
-            data.add(ItemObject("This is the item content in the fourth position"))
-            data.add(ItemObject("This is the item content in the fifth position"))
+            data.add(ItemObject("First position"))
+            data.add(ItemObject("Second position"))
+            data.add(ItemObject("Third position"))
+            data.add(ItemObject("Fourth position"))
+
             data.add(ItemObject("Second Header",true))
-            data.add(ItemObject("This is the item content in the first position"))
-            data.add(ItemObject("This is the item content in the second position"))
-            data.add(ItemObject("This is the item content in the third position"))
-            data.add(ItemObject("This is the item content in the fourth position"))
-            data.add(ItemObject("This is the item content in the fifth position"))
+            data.add(ItemObject("First position"))
+            data.add(ItemObject("Second position"))
+            data.add(ItemObject("Third position"))
+            data.add(ItemObject("Fourth position"))
+
             return data
         }
 
